@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+box-sizing: border-box;    
+}
+img{
+display: block;
+max-width: 100%     
+}
+
+body{ 
+
+    font-family: 'lato', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 2px;    
+}
+
+h2, h3, h4, h5, h6  { 
+font-family: 'Roboto Mono&Display', sans-serif
+letter-spacing: 2px;
+}
+
+.header {
+    height: 80px;
+}
+
+.header .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .icon-futbol-o {
+    margin: 15px;
+}
+
+.icon-futbol-o {
+    display: block;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    margin-left: auto;
+    cursor: pointer;
+ }
+
+.nav {
+    
+    position:absolute;
+    list-style: none;
+    top: 08%;
+    left:  -100%;
+    width: 100%;
+    color: white;
+    transition: all 1s;
+}
+ 
+.menu {
+    list-style: none;
+    padding:0;
+    margin: 0;
+    color: white;
+}
+
+.menu__link {
+    display: block;
+    padding:10px;
+    color: black;
+    text-decoration: none;
+    left:  0%;
+    width: 100%
+    
+}
+.menu__link:hover {
+    background: white;
+    opacity: 30%;
+    color:black;
+    
+}
+
+.mostrar{
+    
+    left: 0%;
+}
+
+.banner {
+    margin-top: -90px;
+    position: relative;
+    z-index: -1000;
+}
+
+.banner__img {
+    
+    margin-top: -90px;
+    z-index: -1000;
+    
+}
+
+
+
+.banner .contenedor {
+    position: absolute;
+    top: 27%;
+    left: 70%;
+    width: 900px;
+}
+.banner__txt {
+    color: white;
+    text-align: left;
+    top: -60%;
+}
+
+.banner2__img {
+    
+    height: 180px;
+    left: 95%;
+}
+
+
+.info__columna {
+    background-color: white; 
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+    
+}
+
+.info__1img {
+    
+    height: 280px;
+    left: 10%;
+    transform: translateX(150%);
+}
+
+.info__img2 {
+    
+    height: 280px;
+    left: 10%;
+    transform: translateX(110%);
+    
+}
+
+.info__img3 {
+    
+    height: 280px;
+    left: 10%;
+    transform: translateX(140%);
+}
+
+.info__img4 {
+    
+    height: 280px;
+    left: 10%;
+    transform: translateX(180%);
+    
+}
+
+.info__txt{
+    
+    text-align:justify;
+    
+}
+
+.info__titulo{
+    
+text-align: center;
+}
+
+.footer {
+    
+    background-color: grey;
+    color: white;
+    padding:10px;
+    text-align: center;    
+}
+
+.footer [class^="icon-"]{
+    
+color: white;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
